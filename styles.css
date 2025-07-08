@@ -45,7 +45,7 @@ h1 {
 }
 h2 {
     font-weight: 400;
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 img {
@@ -104,7 +104,6 @@ table {
 tr {
     line-height: 2rem;
     color: var(--stone-600);
-    font-weight: 0;
 }
 tr:not(:last-child) {
     border-bottom: 1px solid var(--stone-150);
@@ -117,7 +116,7 @@ hr {
     border: none;
     background-color: var(--stone-150);
 }
-@media screen and (width <= 500px) {
+@media screen and (width <= 400px) {
     .recipe {
         max-width: 80vw;
     }
