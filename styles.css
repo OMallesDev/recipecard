@@ -117,3 +117,10 @@ hr {
     border: none;
     background-color: var(--stone-150);
 }
+
+@media screen and (width < 400px){
+    .recipe {
+        max-width: 80%;
+    }
+    
+}
