@@ -108,4 +108,8 @@ tr:not(:last-child) {
 .amount {
     font-weight: 600;
 }
-
+@media screen and (width <= 400px) {
+    .recipe {
+        max-width: 80%;
+    }
+}
