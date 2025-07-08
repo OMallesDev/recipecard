@@ -23,7 +23,7 @@ body {
     font-family: "Outfit", sans-serif;
     font-size: 0.75rem;
     color: var(--brown-800);
-    line-height: 20px;
+    line-height: 1.25rem;
 
 }
 
@@ -65,31 +65,31 @@ section {
 }
 .prep {
     font-weight: 600;
-    padding: 10px;
-    margin: 15px 15px -15px 15px;
+    padding: 0.7rem;
+    margin: 1rem 1rem -1rem 1rem;
     font-size: 0.8rem;
     color: var(--stone-600);
 }    
 .time {
     background-color: var(--rose-50);
     font-weight: 400;
-    margin-left: 20px; 
+    margin-left: 1.25rem; 
     font-size: 0.6rem;
 }
 li {
-    padding-left: 10px;
+    padding-left: 0.7rem;
 }
 .time li {
-    margin: 0px;
+    margin: 0;
 }
 .instructions span {
     font-weight: 800;
 }
 .nutrition {
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 .nutrition h2 {
-    margin-left: -5px;
+    margin-left: 0.3rem;
 }
 .nutrition p {
     font-size: 0.7rem;
@@ -102,7 +102,7 @@ table {
     border-collapse: collapse;
 }
 tr {
-    line-height: 30px;
+    line-height: 2rem;
     color: var(--stone-600);
     font-weight: 0;
 }
@@ -111,6 +111,11 @@ tr:not(:last-child) {
 }
 .amount {
     font-weight: 600;
+}
+hr {
+    height: 1px;
+    border: none;
+    background-color: var(--stone-150);
 }
 @media screen and (width <= 500px) {
     .recipe {
