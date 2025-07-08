@@ -82,6 +82,9 @@ li {
 .time li {
     margin: 0px;
 }
+.instructions span {
+    font-weight: 800;
+}
 .nutrition {
     margin-left: 20px;
 }
