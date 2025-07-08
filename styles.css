@@ -22,7 +22,6 @@ body {
     overflow-x: hidden;
     font-family: "Outfit", sans-serif;
     font-size: 0.75rem;
-    padding-top: 3rem;
     color: var(--brown-800);
     line-height: 20px;
 
@@ -67,16 +66,20 @@ section {
     font-weight: 600;
     padding: 10px;
     margin: 15px 15px -15px 15px;
-    font-size: 0.9rem;
-    color: var(--stone-900);
+    font-size: 0.8rem;
+    color: var(--stone-600);
 }    
 .time {
     background-color: var(--rose-50);
     font-weight: 400;
-    margin-left: 20px;
+    margin-left: 20px; 
+    font-size: 0.6rem;
+}
+li {
+    padding-left: 10px;
 }
 .time li {
-    margin: 5px;
+    margin: 0px;
 }
 .nutrition {
     margin-left: 20px;
