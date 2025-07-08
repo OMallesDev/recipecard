@@ -14,7 +14,7 @@
 body {
     background-color: var(--stone-100);
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -32,7 +32,7 @@ body {
     text-align: center;
     background-color: white;
     margin:  2rem auto 1rem;
-    max-width: 30rem;
+    max-width: 40rem;
     border-radius: 1rem;
     padding: 1rem;
 }
@@ -69,7 +69,11 @@ section {
     margin: 1rem 1rem -1rem 1rem;
     font-size: 0.8rem;
     color: var(--stone-600);
-}    
+} 
+span {
+    font-weight: 600;
+}
+   
 .time {
     background-color: var(--rose-50);
     font-weight: 400;
@@ -94,9 +98,7 @@ li {
 .nutrition p {
     font-size: 0.7rem;
 }
-span {
-    font-weight: 600;
-}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -116,7 +118,7 @@ hr {
     border: none;
     background-color: var(--stone-150);
 }
-@media screen and (width <= 400px) {
+@media screen and (width < 400px) {
     .recipe {
         max-width: 80vw;
     }
