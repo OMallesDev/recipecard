@@ -13,7 +13,7 @@
 
 body {
     background-color: var(--stone-100);
-    width: 100%;
+    width: 100vw;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ body {
     position: relative;
     text-align: center;
     background-color: white;
-    margin: auto;
+    margin:  2rem auto 1rem;
     max-width: 30rem;
     border-radius: 1rem;
     padding: 1rem;
@@ -114,6 +114,6 @@ tr:not(:last-child) {
 }
 @media screen and (width <= 500px) {
     .recipe {
-        max-width: 80%;
+        max-width: 80vw;
     }
 }
