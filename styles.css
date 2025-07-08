@@ -17,7 +17,6 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
-    align-content: center;
     justify-content: center;
     overflow-x: hidden;
     font-family: "Outfit", sans-serif;
@@ -51,12 +50,9 @@ img {
     width: 95%;
     border-radius: 1.2rem;
 }
-header {
+header, header p {
     text-align: left;
-}
-header p {
     font-size: 0.7rem;
-
 }
 
 section {
