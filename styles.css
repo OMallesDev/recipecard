@@ -28,6 +28,7 @@ body {
 }
 
 .recipe {
+    position: relative;
     text-align: center;
     background-color: white;
     margin: auto;
