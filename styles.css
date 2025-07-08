@@ -115,6 +115,9 @@ hr {
 }
 
 @media screen and (width < 400px){
+    body {
+        padding: 2rem;
+    }
     .recipe {
         max-width: 80%;
     }
