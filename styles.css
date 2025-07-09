@@ -114,7 +114,7 @@ hr {
     background-color: var(--stone-150);
 }
 
-@media screen and (width < 600px){
+@media (width < 600px){
     .recipe {
         width: 80%;
     }
