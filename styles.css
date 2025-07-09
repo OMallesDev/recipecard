@@ -114,9 +114,10 @@ hr {
     background-color: var(--stone-150);
 }
 
-@media screen and (max-width <= 600px){
+@media screen and (width <= 600px){
     .recipe {
-        width: 70%;
+        max-width: 70%;
+        padding: 1rem;
     }
     
 }
